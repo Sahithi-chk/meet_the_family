@@ -1,5 +1,1 @@
-language: python
-python:
-  - "3.8.1"
-
-
+python -m unittest discover -s "./tests/" -p "test_*.py"
